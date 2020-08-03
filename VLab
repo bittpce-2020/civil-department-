@@ -1,0 +1,155 @@
+1
+BITT POLYTECHNIC
+RANCHI
+Virtual Labs
+2
+I. Interactive Design making in a virtual Urban World: Value addition
+Simulation on GIS
+The core component of the UCLA Urban Simulator is a visualization system which provides
+high quality photo-realistic simulations of selected communities and neighborhoods. With this
+system, aerial photographs can be combined with street level video to efficiently create a realistic
+(down to plants, street signs and the graffiti on the walls) computer model of an urban
+neighborhood which can then be used for interactive fly and walk-through demonstrations.
+SYSTEM COMPONENTS
+UCLA Urban Simulation Window
+Work at UCLA has focused on developing a user interface for viewing and interacting with a 3-
+dimensional environment which has been designed specifically to meet the needs of the planning
+and design professions. This interface and simulation software runs on a four processor Silicon
+Graphics Onyx workstation with Reality Engine graphics hardware allowing extensive use of
+real-time texture mapping.
+Visual Simulation Run-Time Database Structure
+When a model is loaded into the simulator for viewing, a run-time database of the 3- dimensional
+geometry is generated. This visual database, which is known as the "scene", is structured to
+maximize the efficiency of frame display so that real-time dynamics are feasible. The scene is
+organized into a hierarchical structure called a tree which is composed of connected database
+units called nodes.
+Figure 1 illustrates the most efficient scheme for database organization from a visual simulation
+system perspective. In this case the physical database is partitioned into regions, called tiles.
+Objects are organized on a tile-by-tile basis in the bottom tree structure.
+3
+Figure-1 The most efficient scheme for database organization from a value added simulation
+system perspective.
+4
+II. SIMULATION ON TRAFFIC TUNNEL LIGHTING SYSTEM
+1.1 Background
+Tunnel is a structure completely enclosed except at the entrance and exit openings. The use of
+tunnels is expanding, as the road networks become more and more crowded day-by-day. Within
+tunnels, reliable performance of the lighting system is critical in order to satisfy the human visual
+system. Tunnel lighting gained importance during the 1960’s and the international development
+of tunnel lighting was accounted by CIE (International Commission on Illuminance/Commission
+international de L’Eclairage). The significant light contrast between daylight and tunnel
+luminance causes the driver to slow down as they approach the tunnel entrance. This
+phenomenon is known as the “black hole” effect, which can be minimized by providing enough
+light at the immediate tunnel entrance. Luminaries are normally suspended in one or more rows
+under the tunnel ceiling.
+As the adaptation process of the human eye is not instantaneous, it takes 2 to 4 s to adjust
+when moving through different light intensity (this phenomenon is termed as ‘Flicker’s Effect’
+or ‘Black Hole’ Effect) (CIE Publ. 88, 2004). The most dangerous part of a tunnel is the access
+zone (entrance of the tunnel), because the driver’s pupils can’t immediately adapt to the darker
+area when the driver enters the tunnel. When this happens, the driver can not see any obstacles
+in front of him. So proper lighting must be installed in the access zone to help the driver to
+adapt to the darker zone. The method for determining the brightness in an access zone was
+issued by the CIE. In addition, the CIE also issued recommendations on uniformity, glare
+control and flicker to enhance lighting quality in tunnel interiors. Lighting at the entrance and
+throughout the tunnel must cater for driver’s ability to fully see the road ahead, other vehicles
+as well as any obstacles there may be on the carriageway. In view of the above, the study of
+illumination system of traffic tunnel is of paramount importance.
+1.2 Problems Encountered in Tunnels with Old Lighting System
+1. The need for lighting of tunnels was not felt until the making of tunnels for road traffic
+begun. The users of traffic tunnels need light to steer by. During night-time, the users can
+see with their headlamps in a tunnel as on an unlighted road; but if they enter a tunnel in
+the day-time, the headlamps are of no help and they will be blind for the first five or ten 
+5
+seconds. When drivers enter the tunnels traveling from a very bright external light level
+to a comparably darker level, for certain instant they unable to detect any obstacle from a
+distance equal to Stopping Sight Distance from the tunnel portal. This may lead to serious
+accident within the tunnel.
+2. Also, the methods of lighting of the tunnel roads through high pressure sodium lamp is
+not sufficient to provide high luminance levels in the threshold zones corresponding to
+the required lighting levels. Such methods are not practicable because of the high cost
+involved in the lighting system and because of the notion that less lights would be
+sufficient.
+1.3. Objectives of the Study
+a) To study the illumination system of traffic tunnels.
+b) To assess the adequacy of illumination of traffic tunnels.
+c) To design the illumination system for traffic tunnels and evaluating the adequacy of the
+newly designed illumination system with the existing one.
+To achieve these objectives, the lighting system in traffic tunnels must meet the following
+requirements:
+a) The lighting shall give the carriageway an adequate luminance level, and the luminance
+shall be uniformly distributed over the carriageway, in wet as well as dry conditions.
+b) The angle of incidence of the light relative to the line of sight shall be such as to give
+high visibility to the road markings, in wet as well as dry conditions.
+c) The lower part of the tunnel wall must receive an adequate level of luminance.
+d) The lighting must not give rise to glare and flicker.
+2.0 Study analysis through Flow Chart:-
+6
+2.1 Introduction:-
+Literature
+Review
+Tunnel Zones Illumination
+Design
+Experimental
+Work
+Field
+Investigation
+Current
+Practice
+Measurement of
+illumination level
+in highway tunnel
+DIALux
+Simulation
+Geometry
+creation
+Setting up
+lightings and
+conducting
+simulations
+Study of
+illumination
+behavior in
+different
+zones of
+tunnel
+Study of effect
+of various
+parameters
+(glare, flicker's
+effect, etc.)
+Result and
+Discussion
+Conclusion
+7
+The illumination of a road tunnel is of uttermost importance for driver safety in order to reduce
+the risk of accidents. It has to aid the driver in detecting moving objects and also obstacles in
+front of them. To describe the necessary lighting in the tunnel sections, a number of zones, each
+with a specific lighting requirement, have been defined as shown schematically in Figure 2.1.
+Furthermore, values for the braking distance are determined on the basis of the regulations for
+road geometry. The details of the different lighting zones in tunnel sections are discussed below.
+Figure. 2.1 The luminance curve of a tunnel.
+8
+The computational planning and analysis of the modelling work are depicted in Figure 2.2.
+
+Figure 2.2 Analysis of computational planning
+The computational
+planning analysis
+1. Selection of the standard and
+description of the tunnel profile.
+2. Configuration of the lighting
+installation
+3. Optimization of the lighting
+installation.
+4. Execution of the result
+5. Documentation of the plan
+9
+3.0 Model- The second model of Tunnel is based upon bilateral symmetrical lighting
+arrangement of above mentioned dimensions. Here 20 numbers of bright special lighting
+luminaries have been used, having total luminous flux having center-to-center spacing of 10m
+along the longitudinal direction of tunnel and 5m spacing in transverse direction, the model is
+shown in Figure 3.1.
+Figure 3.1 Model of the bilateral symmetrical lighting arrangement.
+Figure 3.2 The pseudo color image of bilateral symmetrical lighting.
+10
+Figure 3.3 The pseudo color image throughout the tunnel length.
+Figure 3.4 The contours of midline lighting throughout the tunnel length
